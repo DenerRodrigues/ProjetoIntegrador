@@ -45,23 +45,6 @@ public class Utils {
 
 		return is;
 
-		// st = "";
-		// String nextLine;
-		// Scanner sc = new Scanner(is);
-		// while (sc.hasNextLine()) {
-		// nextLine = sc.nextLine() + "\n # ";
-		// st = st.concat(nextLine);
-		// ;
-		// }
-		//
-		// System.out.println(st);
-		// String vet[] = st.split(" # ");
-		//
-		// if (vet.length > 6) {
-		// setStatus(true);
-		// }
-		//
-		// return isStatus();
 	}
 
 	public String calcularSubrede(String ip_old, String mask, int numSubredes) {
